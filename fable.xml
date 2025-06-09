@@ -3,6 +3,7 @@
 
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
+    <property name="texto" default="0" />
 
   <start />
   <primeira />
