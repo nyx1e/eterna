@@ -1,3 +1,11 @@
 <page id="segunda" bg_color="black">
   <agent id="titulo" x="center" y="center" text="Um Milênio se passou..." color="white" font-size="40" />
+  <agent
+    id="next_page_text"
+    text="Proxima Pagina"
+    animation="glitch"
+    y="480"
+    x="640"
+    on_click="goToPage('terceira')"
+  />
 </page>
