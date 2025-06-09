@@ -5,6 +5,8 @@
   <property name="visitante" default="Aventureiro" />
 
   <start />
-  <middle />
+  <primeira />
+  <segunda />
+  <terceira />
   <ending />
 </fable>
