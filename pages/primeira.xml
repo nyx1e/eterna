@@ -8,7 +8,6 @@
     font-size="50"
     />
   
-</page>
 <agent 
   id= "botão"
   text= "clique para continuar"
@@ -51,3 +50,13 @@
     color="white" 
     />
 </fab-if>
+
+<agent
+    id="next_page_text"
+    text="Proxima Pagina"
+    animation="glitch"
+    y="480"
+    x="640"
+    on_click="goToPage('segunda')"
+  />
+</page>
