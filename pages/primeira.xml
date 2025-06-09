@@ -1,5 +1,12 @@
 <page id="primeira" bg_image="f524c6f6_ab89_468d_a13e_be45b4bd6ded.jpg">
-  <agent id="titulo" x="center" y="300" text="Capítulo 01" color="white" font-size="50"  bg_color="#000000"  />
+  <agent 
+    id="titulo" 
+    x="center" 
+    y="300" 
+    text="Capítulo 01" 
+    color="white" 
+    font-size="50"
+    />
 </page>
 <agent 
   id= "dialogo"
@@ -7,6 +14,7 @@
   x="572"
   y="558"
   font-size="20"
+  color="white" 
   on_click="set(texto, $texto+1)"
   />
 
@@ -17,6 +25,8 @@
     x="center"
     y="500"
     font-size="25"
+    color="white"
+    />
 </fab-if>
 
 <fab-if when="$texto = 2">
@@ -26,6 +36,8 @@
     x="center"
     y="500"
     font-size="25"
+    color="white" 
+    />
 </fab-if>
 
 <fab-if when="$texto = 3">
@@ -35,4 +47,6 @@
     x="center"
     y="500"
     font-size="25"
+    color="white" 
+    />
 </fab-if>
