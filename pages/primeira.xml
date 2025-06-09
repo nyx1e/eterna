@@ -54,7 +54,7 @@
 <fab-if when="$texto = 4">
   <agent
     id="next_page_text"
-    text=">>>"
+    text="..."
     animation="glitch"
     y="400"
     x="center"
