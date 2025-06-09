@@ -1,7 +1,7 @@
-<page id="start" bg_image="images.jpg" bg_music="osts-vilo.mp3">
+<page id="start" bg_image="cemetery-bone-1.png" bg_music="osts-vilo.mp3">
   <agent
     id="teste"
-    text="PROJETO 626"
+    text="NOME A DEFINIR"
     color="white"
     x="center"
     y="350"
@@ -14,6 +14,6 @@
     animation="glitch"
     y="480"
     x="640"
-    on_click="goToPage('middle')"
+    on_click="goToPage('primeira')"
   />
 </page>
