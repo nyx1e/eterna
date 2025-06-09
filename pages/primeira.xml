@@ -1,5 +1,5 @@
-<page id="primeira" bg_color="black">
-  <agent id="titulo" x="center" y="200" text="Capítulo 01" color="white" font-size="50" />
+<page id="primeira" bg_image="f524c6f6_ab89_468d_a13e_be45b4bd6ded.jpg">
+  <agent id="titulo" x="center" y="300" text="Capítulo 01" color="white" font-size="50" />
 </page>
 <agent 
   id= "dialogo"
