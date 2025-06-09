@@ -9,7 +9,7 @@
     />
 </page>
 <agent 
-  id= "dialogo"
+  id= "botão"
   text= "clique para continuar"
   x="572"
   y="558"
