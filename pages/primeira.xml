@@ -1,3 +1,20 @@
 <page id="primeira" bg_color="black">
   <agent id="titulo" x="center" y="center" text="Página primeira" color="white" font-size="24" />
 </page>
+<agent 
+  id= "dialogo"
+  text= "clique para continuar"
+  x="572"
+  y="558"
+  font-size="20"
+  on_click="set(texto, $texto+1)"
+
+<fab-if when="$texto = 1">
+  <agent
+    id=""
+    text=""
+    x=""
+    y=""
+    font-size=""
+    
+</fab-if>
