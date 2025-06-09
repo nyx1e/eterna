@@ -15,8 +15,8 @@
     id="frase1"
     text="Eis uma bruxa de bom de coração e curiosa."
     x="center"
-    y="300"
-    font-size=""
+    y="500"
+    font-size="25"
 </fab-if>
 
 <fab-if when="$texto = 2">
@@ -24,39 +24,15 @@
     id="frase2"
     text="Entretanto o tempo tornou-se seu maior inimigo, pois tirou dela todos a quem amava e a amaldiçoou com a eternidade."
     x="center"
-    y="300"
-    font-size=""
+    y="500"
+    font-size="25"
 </fab-if>
 
-<fab-if when="$texto = 1">
+<fab-if when="$texto = 3">
   <agent
     id="frase3"
-    text="Entretanto o tempo tornou-se seu maior inimigo, pois tirou dela todos a quem amava e a amaldiçoou com a eternidade."
+    text="Com o tempo a bruxa uma vez amável entrou em contato com um mundo cruel e sem misericórdia, o qual endureceu seu coração e a transformou em um monstro."
     x="center"
-    y="300"
-    font-size=""
-</fab-if>
-<fab-if when="$texto = 1">
-  <agent
-    id="frase1"
-    text="Eis uma bruxa de bom de coração e curiosa."
-    x="center"
-    y="300"
-    font-size=""
-</fab-if>
-<fab-if when="$texto = 1">
-  <agent
-    id="frase1"
-    text="Eis uma bruxa de bom de coração e curiosa."
-    x="center"
-    y="300"
-    font-size=""
-</fab-if>
-<fab-if when="$texto = 1">
-  <agent
-    id="frase1"
-    text="Eis uma bruxa de bom de coração e curiosa."
-    x="center"
-    y="300"
-    font-size=""
+    y="500"
+    font-size="25"
 </fab-if>
