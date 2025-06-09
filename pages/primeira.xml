@@ -12,7 +12,7 @@
   id= "botão"
   text= "clique para continuar"
   x="572"
-  y="558"
+  y="500"
   font-size="20"
   color="white" 
   on_click="set(texto, $texto+1)"
@@ -23,7 +23,7 @@
     id="frase1"
     text="Eis uma bruxa de bom de coração e curiosa."
     x="center"
-    y="500"
+    y="400"
     font-size="25"
     color="white"
     />
@@ -34,7 +34,7 @@
     id="frase2"
     text="Entretanto o tempo tornou-se seu maior inimigo, pois tirou dela todos a quem amava e a amaldiçoou com a eternidade."
     x="center"
-    y="500"
+    y="400"
     font-size="25"
     color="white" 
     />
@@ -45,18 +45,20 @@
     id="frase3"
     text="Com o tempo a bruxa uma vez amável entrou em contato com um mundo cruel e sem misericórdia, o qual endureceu seu coração e a transformou em um monstro."
     x="center"
-    y="500"
-    font-size="25"
+    y="400"
+    font-size="22"
     color="white" 
     />
 </fab-if>
 
-<agent
+<fab-if when="$texto = 4">
+  <agent
     id="next_page_text"
-    text="Proxima Pagina"
+    text=">>>"
     animation="glitch"
-    y="480"
-    x="640"
+    y="400"
+    x="center"
     on_click="goToPage('segunda')"
   />
+</fab-if>  
 </page>
