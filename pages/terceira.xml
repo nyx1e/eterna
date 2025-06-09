@@ -1,3 +1,39 @@
 <page id="terceira" bg_color="black">
   <agent id="titulo" x="center" y="center" text="Página terceira" color="white" font-size="24" />
 </page>
+
+<agent 
+  id= "dialogo"
+  text= "clique para continuar"
+  x="572"
+  y="558"
+  font-size="20"
+  on_click="set(texto, $texto+1)"
+  />
+
+<fab-if when="$texto = 1">
+  <agent
+    id="frase1"
+    text="Eis uma bruxa de bom de coração e curiosa."
+    x="center"
+    y="500"
+    font-size="25"
+</fab-if>
+
+<fab-if when="$texto = 2">
+  <agent
+    id="frase2"
+    text="Entretanto o tempo tornou-se seu maior inimigo, pois tirou dela todos a quem amava e a amaldiçoou com a eternidade."
+    x="center"
+    y="500"
+    font-size="25"
+</fab-if>
+
+<fab-if when="$texto = 3">
+  <agent
+    id="frase3"
+    text="Com o tempo a bruxa uma vez amável entrou em contato com um mundo cruel e sem misericórdia, o qual endureceu seu coração e a transformou em um monstro."
+    x="center"
+    y="500"
+    font-size="25"
+</fab-if>
