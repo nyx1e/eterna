@@ -1,5 +1,5 @@
 <page id="primeira" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página primeira" color="white" font-size="24" />
+  <agent id="titulo" x="center" y="200" text="Capítulo 01" color="white" font-size="50" />
 </page>
 <agent 
   id= "dialogo"
@@ -8,13 +8,55 @@
   y="558"
   font-size="20"
   on_click="set(texto, $texto+1)"
+  />
 
 <fab-if when="$texto = 1">
   <agent
-    id=""
-    text=""
-    x=""
-    y=""
+    id="frase1"
+    text="Eis uma bruxa de bom de coração e curiosa."
+    x="center"
+    y="300"
     font-size=""
-    
+</fab-if>
+
+<fab-if when="$texto = 2">
+  <agent
+    id="frase2"
+    text="Entretanto o tempo tornou-se seu maior inimigo, pois tirou dela todos a quem amava e a amaldiçoou com a eternidade."
+    x="center"
+    y="300"
+    font-size=""
+</fab-if>
+
+<fab-if when="$texto = 1">
+  <agent
+    id="frase3"
+    text="Entretanto o tempo tornou-se seu maior inimigo, pois tirou dela todos a quem amava e a amaldiçoou com a eternidade."
+    x="center"
+    y="300"
+    font-size=""
+</fab-if>
+<fab-if when="$texto = 1">
+  <agent
+    id="frase1"
+    text="Eis uma bruxa de bom de coração e curiosa."
+    x="center"
+    y="300"
+    font-size=""
+</fab-if>
+<fab-if when="$texto = 1">
+  <agent
+    id="frase1"
+    text="Eis uma bruxa de bom de coração e curiosa."
+    x="center"
+    y="300"
+    font-size=""
+</fab-if>
+<fab-if when="$texto = 1">
+  <agent
+    id="frase1"
+    text="Eis uma bruxa de bom de coração e curiosa."
+    x="center"
+    y="300"
+    font-size=""
 </fab-if>
