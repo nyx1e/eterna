@@ -139,7 +139,6 @@ E, sem perceber, ela o ouvia com atenção."
     font-size="17"
     color="white"
     animation="typewriter"
-     on_click="goToPage('quarta')"
   />    
 </fab-if>
 
