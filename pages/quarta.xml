@@ -85,7 +85,7 @@
   />    
 </fab-if>
   
-<fab-if when="$texto = 22">
+<fab-if when="$texto = 21">
   <agent
     id="caminho2"
     text="Tentar convencê-los de que não o enfeitiçou"
