@@ -11,7 +11,7 @@
   on_click="set(texto, $texto+1)"
   />
   
-<fab-if when="$texto = 23">
+<fab-if when="$texto = 22">
   <agent
     id="frase1"
     text="Ela quis rugir, queriam tirar seu único tesouro. Mas se conteve. Apenas apareceu e falou: — Ele é meu coração agora."
@@ -22,7 +22,7 @@
     />
 </fab-if>
 
-<fab-if when="$texto = 24">
+<fab-if when="$texto = 23">
   <agent
     id="frase2"
     text="A bruxa pegou o menino nos braços e desapareceu. Foram morar longe, onde ninguém os conhecia."
@@ -33,7 +33,7 @@
   />    
 </fab-if>
   
-<fab-if when="$texto = 25">
+<fab-if when="$texto = 24">
   <agent
     id="frase3"
     text="Ela ensinou a ele conhecimentos milenares, mas também bondade. E ele ensinou a ela como amar de novo."
@@ -44,7 +44,7 @@
   />    
 </fab-if>
   
-<fab-if when="$texto = 26">
+<fab-if when="$texto = 25">
   <agent
     id="frase4"
     text="Com o passar do tempo, o menino tornou-se um homem sábio. A bruxa, eterna, assistia a cada fase com amor e dor. Ele cresceu, envelheceu…"
@@ -55,7 +55,7 @@
   />    
 </fab-if>
 
-<fab-if when="$texto = 27">
+<fab-if when="$texto = 26">
   <agent
     id="frase5"
     text="E quando chegou seu fim, ela segurou sua mão. E chorou pela primeira vez em mil anos."
@@ -66,7 +66,7 @@
   />    
 </fab-if>
 
-<fab-if when="$texto = 28">
+<fab-if when="$texto = 27">
   <agent
     id="frase6"
     text="O tempo levou o menino, como sempre faz com tudo que vive. Mas desta vez, a bruxa não se quebrou — apenas esperou."
@@ -77,7 +77,7 @@
   />    
 </fab-if>
 
-<fab-if when="$texto = 29">
+<fab-if when="$texto = 28">
   <agent
     id="frase7"
     text="Ela descobriu que o amor verdadeiro sempre encontra um caminho de volta. E assim, vida após vida, ela esperaria por ele. A eternidade se tornou uma benção."
@@ -88,7 +88,7 @@
   />    
 </fab-if> 
   
-<fab-if when="$texto = 30">
+<fab-if when="$texto = 29">
   <agent
     id="frase8"
     text="A bruxa vagava por cidades, florestas e desertos, com o mesmo olhar paciente. Às vezes sentia ecos dele no vento, na música, nas crianças que corriam pelas ruas. Mas nenhum era ele. Até o dia em que sentiu aquele olhar de novo.
@@ -100,7 +100,7 @@
   />    
 </fab-if>
 
-<fab-if when="$texto = 9">
+<fab-if when="$texto = 30">
   <agent
     id="frase9"
     text="Ele estava ali, sentado sob uma árvore, lendo um livro de magia. Ela parou, o coração batendo mais forte que nunca. Ele a olhou de volta, curioso, como se a conhecesse de algum sonho antigo. Sorriu."
@@ -111,7 +111,7 @@
   />    
 </fab-if>
   
-<fab-if when="$texto = 10">
+<fab-if when="$texto = 31">
   <agent
     id="frase10"
     text="— Você tem olhos de estrela — ele falou novamente. Ela assentiu, incapaz de falar."
@@ -122,7 +122,7 @@
   />    
 </fab-if>
 
-<fab-if when="$texto = 11">
+<fab-if when="$texto = 32">
   <agent
     id="frase11"
     text="— Acho que te conheço… mas não sei de onde."
@@ -133,7 +133,7 @@
   />    
 </fab-if>
 
-<fab-if when="$texto = 12">
+<fab-if when="$texto = 33">
   <agent
     id="frase12"
     text="Ela se sentou ao lado dele, os olhos calmos. — E eu esperei muito tempo para ouvir isso de novo."
@@ -144,7 +144,7 @@
   />    
 </fab-if>
 
-  <fab-if when="$texto = 13">
+  <fab-if when="$texto = 34">
    <agent
     id= "seguinte"
     text= "continuar"
