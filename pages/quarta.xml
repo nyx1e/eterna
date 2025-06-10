@@ -14,65 +14,78 @@
 <fab-if when="$texto = 1">
   <agent
     id="frase1"
-    text="Nos dias seguintes, ele voltava ao mesmo lugar.
-Às vezes com pão, outras com flores mal colhidas.
-Ela dizia que não queria companhia, mas nunca o impedia de ficar.
-Ele a fazia rir — uma risada rouca e esquecida.
-Uma rachadura discreta surgiu na muralha ao redor de seu coração."
+    text="Nos dias seguintes, ele voltava ao mesmo lugar. Às vezes com pão, outras com flores mal colhidas. Ela dizia que não queria companhia, mas nunca o impedia de ficar."
     x="center"
-    y="500"
-    font-size="25"
+    y="459"
+    font-size="17.5"
     color="white" 
     />
 </fab-if>
 
 <fab-if when="$texto = 2">
-  <agent
+   <agent
     id="frase2"
-    text="O tempo passou devagar.
-O menino crescia, e com ele crescia o laço entre os dois.
-Ela, que havia esquecido como era cuidar de alguém, se pegava esperando por ele.
-Sentia medo.
-De novo, estava amando algo que o tempo poderia tirar."
+    text="Ele a fazia rir — uma risada rouca e esquecida. Uma rachadura discreta surgiu na muralha ao redor de seu coração."
     x="center"
-    y="500"
-    font-size="25"    
+    y="464"
+    font-size="19.5"
     color="white" 
-  />    
+    />
 </fab-if>
 
 <fab-if when="$texto = 3">
   <agent
     id="frase3"
-    text="Certa noite, um grupo de aldeões veio à floresta.
-Diziam que o menino estava amaldiçoado pela bruxa e queriam matá-los para purificar o vilarejo da maldição da bruxa."
+    text="O tempo passou devagar. O menino crescia, e com ele crescia o laço entre os dois. Ela, que havia esquecido como era cuidar de alguém, se pegava esperando por ele."
     x="center"
-    y="500"
-    font-size="25"
+    y="459"
+    font-size="18"    
     color="white" 
   />    
 </fab-if>
 
-  <fab-if when="$texto = 4">
+<fab-if when="$texto = 4">
+  <agent
+    id="frase4"
+    text="Ela sentia medo. De novo, estava amando algo que o tempo poderia tirar."
+    x="center"
+    y="475"
+    font-size="20"    
+    color="white" 
+  />    
+</fab-if>
+  
+<fab-if when="$texto = 5">
+  <agent
+    id="frase5"
+    text="Certa noite, um grupo de aldeões veio à floresta. Diziam que o menino estava amaldiçoado pela bruxa e queriam matá-los para purificar o vilarejo da maldição da bruxa."
+    x="center"
+    y="459"
+    font-size="17"
+    color="white" 
+  />    
+</fab-if>
+
+<fab-if when="$texto = 6">
    <agent
     id= "seguinte1"
-    text= "Pegar o menino e fugir"
-    x="570"
-    y="559"
+    text= "> Pegar o menino e fugir"
+    x="center"
+    y="525"
     font-size="20"
-    color="black"
+    color="white"
     on_click="goToPage('quinta1')"
   />
 </fab-if>
 
-  <fab-if when="$texto = 4">
+<fab-if when="$texto = 6">
    <agent
     id= "seguinte2"
-    text= "Tentar convencê-los que você não o enfeitiçou"
-    x="570"
-    y="559"
-    font-size="20"
-    color="black"
+    text= "> Tentar convencê-los que você não o enfeitiçou"
+    x="center"
+    y="470"
+    font-size="17.5"
+    color="white"
     on_click="goToPage('quinta2')"
   />
 </fab-if>
