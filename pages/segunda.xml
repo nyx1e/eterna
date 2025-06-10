@@ -5,7 +5,7 @@
     text="Proxima Pagina"
     animation="glitch"
     y="480"
-    x="640"
+    x="540"
     on_click="goToPage('terceira')"
   />
 </page>
