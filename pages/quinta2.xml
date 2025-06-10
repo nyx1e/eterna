@@ -19,6 +19,7 @@
     y="465"
     font-size="19"
     color="white" 
+    animation="typewriter"
     />
 </fab-if>
 
@@ -30,6 +31,7 @@
     y="460"
     font-size="16"    
     color="white" 
+    animation="typewriter"
   />    
 </fab-if>
   
@@ -41,6 +43,7 @@
     y="490"
     font-size="20"    
     color="white" 
+    animation="typewriter"
   />    
 </fab-if>
   
@@ -53,6 +56,7 @@ Seu grito virou vento, sua raiva virou tempestade."
     y="465"
     font-size="20"
     color="white" 
+    animation="typewriter"
   />    
 </fab-if>
 
@@ -64,6 +68,7 @@ Seu grito virou vento, sua raiva virou tempestade."
     y="455"
     font-size="18"
     color="white"
+    animation="typewriter"
   />    
 </fab-if>
 
@@ -75,6 +80,7 @@ Seu grito virou vento, sua raiva virou tempestade."
     y="465"
     font-size="19"
     color="white"
+    animation="typewriter"
   />    
 </fab-if>
 
@@ -88,6 +94,7 @@ Nunca mais falou, nunca mais sorriu."
     y="455"
     font-size="18"
     color="white"
+    animation="typewriter"
   />    
 </fab-if> 
   
@@ -99,6 +106,7 @@ Nunca mais falou, nunca mais sorriu."
     y="475"
     font-size="25"
     color="white"
+    animation="typewriter"
   />    
 </fab-if>
 
