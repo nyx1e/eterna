@@ -1,4 +1,4 @@
-<page id="quarta" bg_image="10d6de9b_49b6_4079_8b0e_338b8710a3cc.jpg">
+<page id="quarta" bg_image="10d6de9b_49b6_4079_8b0e_338b8710a3cc.jpg" >
   <agent id="titulo" x="500" y="320" text="Capítulo 03" color="white" font-size="50"  />
 
   <agent 
@@ -89,4 +89,4 @@
     on_click="goToPage('quinta2')"
   />
 </fab-if>
-  </page>
+</page>
