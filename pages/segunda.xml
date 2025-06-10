@@ -1,5 +1,5 @@
 <page id="segunda" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Um Milênio Depois" color="white" font-size="40" />
+  <agent id="titulo" x="center" y="center" text="Um Milênio Depois" color="white" font-size="40" animation="typewriter" />
 
    <agent
     id="next_page_text"
