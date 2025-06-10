@@ -8,10 +8,10 @@
   y="559"
   font-size="20"
   color="black" 
-  on_click="set(texto, $texto+1)"
+  on_click="set(texto5, $texto5+1)"
   />
   
-<fab-if when="$texto = 22">
+<fab-if when="$texto5 = 1">
   <agent
     id="frase1"
     text="Ao tentar convencê-los, arrancaram-no dela com gritos e violência. Ela caiu de joelhos, sentindo o vazio milenar voltar."
@@ -22,7 +22,7 @@
     />
 </fab-if>
 
-<fab-if when="$texto = 23">
+<fab-if when="$texto5 = 2">
   <agent
     id="frase2"
     text="Na escuridão, ela tentou trazê-lo de volta. Feitiços antigos, promessas ao céu e ao inferno. Mas o tempo foi implacável mais uma vez. O menino, frágil diante do ódio dos homens, não resistiu."
@@ -33,7 +33,7 @@
   />    
 </fab-if>
   
-<fab-if when="$texto = 24">
+<fab-if when="$texto5 = 3">
   <agent
     id="frase3"
     text="Ele morreu esperando pela ajuda dela."
@@ -44,7 +44,7 @@
   />    
 </fab-if>
   
-<fab-if when="$texto = 25">
+<fab-if when="$texto5 = 4">
   <agent
     id="frase4"
     text="A floresta inteira chorou com sua dor.
@@ -56,7 +56,7 @@ Seu grito virou vento, sua raiva virou tempestade."
   />    
 </fab-if>
 
-<fab-if when="$texto = 26">
+<fab-if when="$texto5 = 5">
   <agent
     id="frase5"
     text="Enfurecida, ela avançou sobre o vilarejo sem piedade. Prendendo os moradores num sono eterno no qual viveriam seus piores pesadelos até que seus corpos apodrececem."
@@ -67,7 +67,7 @@ Seu grito virou vento, sua raiva virou tempestade."
   />    
 </fab-if>
 
-<fab-if when="$texto = 27">
+<fab-if when="$texto5 = 6">
   <agent
     id="frase6"
     text="Para ela, a tortura eterna era um preço pequeno a se pagar pelas atrocidades que fizeram com o menino antes de sua morte."
@@ -78,7 +78,7 @@ Seu grito virou vento, sua raiva virou tempestade."
   />    
 </fab-if>
 
-<fab-if when="$texto = 28">
+<fab-if when="$texto5 = 7">
   <agent
     id="frase7"
     text="Após destruir o vilarejo sem piedade, ela enterrou o menino sob a árvore mais antiga.
@@ -91,7 +91,7 @@ Nunca mais falou, nunca mais sorriu."
   />    
 </fab-if> 
   
-<fab-if when="$texto = 29">
+<fab-if when="$texto5 = 8">
   <agent
     id="frase8"
     text="Pois nada mais restava para ser tirado dela."
@@ -102,7 +102,7 @@ Nunca mais falou, nunca mais sorriu."
   />    
 </fab-if>
 
- <fab-if when="$texto = 30">
+ <fab-if when="$texto5 = 9">
    <agent
     id= "seguinte"
     text= "continuar"
