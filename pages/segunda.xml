@@ -4,8 +4,8 @@
     id="next_page_text"
     text="Proxima Pagina"
     animation="glitch"
-    y="480"
-    x="540"
+    y="center"
+    x="center"
     on_click="goToPage('terceira')"
   />
 </page>
