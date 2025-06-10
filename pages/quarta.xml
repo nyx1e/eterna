@@ -45,7 +45,7 @@ De novo, estava amando algo que o tempo poderia tirar."
   <agent
     id="frase3"
     text="Certa noite, um grupo de aldeões veio à floresta.
-Diziam que o menino estava amaldiçoado pela bruxa e queria matá-lo para o livrar da maldição da bruxa."
+Diziam que o menino estava amaldiçoado pela bruxa e queriam matá-los para purificar o vilarejo da maldição da bruxa."
     x="center"
     y="500"
     font-size="25"
@@ -56,7 +56,7 @@ Diziam que o menino estava amaldiçoado pela bruxa e queria matá-lo para o livr
   <fab-if when="$texto = 4">
   <agent
     id="quinta1"
-    text="Proxima Pagina"
+    text="Convença as pessoas do vilarejo do contrário"
     animation="glitch"
     y="480"
     x="640"
@@ -67,7 +67,7 @@ Diziam que o menino estava amaldiçoado pela bruxa e queria matá-lo para o livr
   <fab-if when="$texto = 4">
   <agent
     id="quinta2"
-    text="Proxima Pagina"
+    text="Pegue o menino e fuja"
     animation="glitch"
     y="480"
     x="640"
