@@ -1,4 +1,4 @@
-<page id="segunda" bg_image="f524c6f6_ab89_468d_a13e_be45b4bd6ded.jpg">
+<page id="terceira" bg_image="f524c6f6_ab89_468d_a13e_be45b4bd6ded.jpg">
   <agent id="titulo" x="center" y="300" text="Capítulo 02" color="white" font-size="50"  />
 
 <agent 
