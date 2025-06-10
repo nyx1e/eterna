@@ -26,6 +26,7 @@
     y="475"
     font-size="25"
     color="white"
+    animation="typewriter"
     />
 </fab-if>
 
@@ -37,6 +38,7 @@
     y="465"
     font-size="20"
     color="white" 
+    animation="typewriter"
     />
 </fab-if>
 
@@ -48,6 +50,7 @@
     y="455"
     font-size="18"
     color="white" 
+    animation="typewriter"
     />
 </fab-if>
 
