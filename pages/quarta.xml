@@ -1,3 +1,103 @@
-<page id="quarta" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página quarta" color="white" font-size="24" />
-</page>
+<page id="terceira" bg_image="f524c6f6_ab89_468d_a13e_be45b4bd6ded.jpg">
+  <agent id="titulo" x="center" y="300" text="Capítulo 02" color="white" font-size="50"  />
+
+<agent 
+  id= "dialogo"
+  text= "clique para continuar"
+  x="578"
+  y="558"
+  font-size="20"
+  color="white"
+  on_click="set(texto, $texto+1)"
+  />
+
+<fab-if when="$texto = 1">
+  <agent
+    id="frase1"
+    text="Um dia quando vagava por um vilarejo evitando a tudo e todos, uma criança por volta dos 5 anos esbarra nela e cai no chão."
+    x="center"
+    y="500"
+    font-size="25"
+    color="white" 
+    />
+</fab-if>
+
+<fab-if when="$texto = 2">
+  <agent
+    id="frase2"
+    text="Para criança, aquele momento havia sido marcado para sempre em sua memória. Para bruxinha, o encontro a lembrou da infância quando ela ainda era pura mudando seu semblante uma vez calmo para um decaído e obscurecido."
+    x="center"
+    y="500"
+    font-size="25"    
+    color="white" 
+  />    
+</fab-if>
+
+<fab-if when="$texto = 3">
+  <agent
+    id="frase3"
+    text="O garoto curioso e encantado pela bruxa a seguiu de uma forma nada discreta. A bruxa experiente percebeu sua aproximação."
+    x="center"
+    y="500"
+    font-size="25"
+    color="white" 
+  />    
+</fab-if>
+
+<fab-if when="$texto = 4">
+  <agent
+    id="frase4"
+    text="O garoto curioso e encantado pela bruxa a seguiu de uma forma nada discreta. A bruxa experiente percebeu sua aproximação."
+    x="center"
+    y="500"
+    font-size="25"
+    color="white"
+  />    
+</fab-if>
+
+<fab-if when="$texto = 5">
+  <agent
+    id="frase5"
+    text="Ela se virou, esperando assustá-lo com o olhar sombrio.
+Mas o menino sorriu, como se visse algo bonito ali."
+    x="center"
+    y="500"
+    font-size="25"
+    color="white"
+  />    
+</fab-if>
+
+<fab-if when="$texto = 6">
+  <agent
+    id="frase6"
+    text="— Você tem olhos de estrela."
+    x="center"
+    y="500"
+    font-size="25"
+    color="white"
+  />    
+</fab-if>
+
+<fab-if when="$texto = 7">
+  <agent
+    id="frase7"
+    text="A bruxa congelou.
+Fazia séculos que ninguém a via assim."
+    x="center"
+    y="500"
+    font-size="25"
+    color="white"
+  />    
+</fab-if>
+
+  <fab-if when="$texto = 8">
+  <agent
+    id="next_page_text"
+    text="Proxima Pagina"
+    animation="glitch"
+    y="480"
+    x="640"
+    on_click="goToPage('segunda')"
+  />
+</fab-if>
+  </page>
