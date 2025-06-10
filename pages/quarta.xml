@@ -1,5 +1,5 @@
-<page id="quarta" bg_image="f524c6f6_ab89_468d_a13e_be45b4bd6ded.jpg">
-  <agent id="titulo" x="center" y="300" text="Capítulo 02" color="white" font-size="50"  />
+<page id="quarta" bg_image="10d6de9b_49b6_4079_8b0e_338b8710a3cc.jpg">
+  <agent id="titulo" x="center" y="300" text="Capítulo 03" color="white" font-size="50"  />
 
   <agent 
   id= "botão"
@@ -53,10 +53,10 @@ Diziam que o menino estava amaldiçoado pela bruxa e queriam matá-los para puri
   />    
 </fab-if>
 
-  <fab-if when="$texto = 11">
+  <fab-if when="$texto = 4">
    <agent
     id= "seguinte1"
-    text= "continuar"
+    text= "Pegar o menino e fugir"
     x="570"
     y="559"
     font-size="20"
@@ -65,10 +65,10 @@ Diziam que o menino estava amaldiçoado pela bruxa e queriam matá-los para puri
   />
 </fab-if>
 
-  <fab-if when="$texto = 11">
+  <fab-if when="$texto = 4">
    <agent
     id= "seguinte2"
-    text= "continuar"
+    text= "Tentar convencê-los que você não o enfeitiçou"
     x="570"
     y="559"
     font-size="20"
