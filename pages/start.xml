@@ -1,11 +1,11 @@
-<page id="start" bg_image="cemetery-bone-1.png" bg_music="osts-vilo.mp3">
+<page id="start" bg_image="e8a1261e_f934_45fc_87b8_b65cf0df0650.jpg">
   <agent
     id="teste"
-    text="NOME A DEFINIR"
+    text="Eterna"
     color="white"
     x="center"
-    y="350"
-    font-size="70"
+    y="450"
+    font-size="80"
   />
 
   <agent
