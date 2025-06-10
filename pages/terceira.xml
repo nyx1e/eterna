@@ -93,11 +93,11 @@ Fazia séculos que ninguém a via assim."
   <fab-if when="$texto = 8">
   <agent
     id="next_page_text"
-    text="..."
+    text="Proxima Pagina"
     animation="glitch"
-    y="400"
-    x="center"
-    on_click="goToPage('quarta')"
+    y="480"
+    x="640"
+    on_click="goToPage('segunda')"
   />
 </fab-if>
   </page>
