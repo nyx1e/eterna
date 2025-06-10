@@ -26,6 +26,7 @@
     y="465"
     font-size="19"
     color="white" 
+    animation="typewriter"
     />
 </fab-if>
 
@@ -37,6 +38,7 @@
     y="475"
     font-size="20"    
     color="white" 
+    animation="typewriter"
   />    
 </fab-if>
   
@@ -48,6 +50,7 @@
     y="455"
     font-size="17.5"    
     color="white" 
+    animation="typewriter"
   />    
 </fab-if>
   
@@ -59,6 +62,7 @@
     y="465"
     font-size="18"
     color="white" 
+    animation="typewriter"
   />    
 </fab-if>
 
@@ -71,6 +75,7 @@ Mas o menino sorriu, como se visse algo bonito ali."
     y="465"
     font-size="20"
     color="white"
+    animation="typewriter"
   />    
 </fab-if>
 
@@ -82,6 +87,7 @@ Mas o menino sorriu, como se visse algo bonito ali."
     y="485"
     font-size="25"
     color="white"
+    animation="typewriter"
   />    
 </fab-if>
 
@@ -94,6 +100,7 @@ Fazia séculos que ninguém a via assim."
     y="470"
     font-size="25"
     color="white"
+    animation="typewriter"
   />    
 </fab-if> 
   
@@ -105,6 +112,7 @@ Fazia séculos que ninguém a via assim."
     y="480"
     font-size="25"
     color="white"
+    animation="typewriter"
   />    
 </fab-if>
 
@@ -116,6 +124,7 @@ Fazia séculos que ninguém a via assim."
     y="475"
     font-size="25"
     color="white"
+    animation="typewriter"
   />    
 </fab-if>
   
@@ -129,18 +138,8 @@ E, sem perceber, ela o ouvia com atenção."
     y="465"
     font-size="17"
     color="white"
+    animation="typewriter"
+     on_click="goToPage('quarta')"
   />    
-</fab-if>
-
-  <fab-if when="$texto2 = 11">
-   <agent
-    id= "seguinte"
-    text= "continuar"
-    x="570"
-    y="559"
-    font-size="20"
-    color="black"
-    on_click="goToPage('quarta')"
-  />
 </fab-if>
   </page>
