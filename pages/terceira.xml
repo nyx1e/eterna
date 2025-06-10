@@ -89,4 +89,15 @@ Fazia séculos que ninguém a via assim."
     color="white"
   />    
 </fab-if>
+
+  <fab-if when="$texto = 8">
+  <agent
+    id="next_page_text"
+    text="..."
+    animation="glitch"
+    y="400"
+    x="center"
+    on_click="goToPage('quarta')"
+  />
+</fab-if>
   </page>
