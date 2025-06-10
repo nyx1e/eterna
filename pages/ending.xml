@@ -6,6 +6,7 @@
     x="center"
     y="center"
     font-size="70"
+    animation="typewriter"
   />
 
   <agent
