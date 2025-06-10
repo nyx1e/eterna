@@ -84,16 +84,3 @@
     on_click="goToPage('quinta1')"
     />
 </fab-if>
-
-<fab-if when="$texto = 6">
-   <agent
-    id= "seguinte2"
-    text= "> Tentar convencê-los que você não o enfeitiçou"
-    x="center"
-    y="470"
-    font-size="17.5"
-    color="white"
-    on_click="goToPage('quinta2')"
-  />
-</fab-if>
-</page>
