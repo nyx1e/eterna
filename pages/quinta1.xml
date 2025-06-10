@@ -1,3 +1,5 @@
 <page id="quinta1" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página quinta1" color="white" font-size="24" />
+  <agent id="titulo" x="center" y="center" text="Capítulo 04" color="white" font-size="24" />
+
+  
 </page>
