@@ -1,5 +1,5 @@
 <page id="quarta" bg_image="10d6de9b_49b6_4079_8b0e_338b8710a3cc.jpg">
-  <agent id="titulo" x="center" y="300" text="Capítulo 03" color="white" font-size="50"  />
+  <agent id="titulo" x="500" y="320" text="Capítulo 03" color="white" font-size="50"  />
 
   <agent 
   id= "botão"
