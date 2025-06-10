@@ -1,15 +1,22 @@
 <page id="quarta" bg_image="10d6de9b_49b6_4079_8b0e_338b8710a3cc.jpg">
-  <agent id="titulo" x="500" y="320" text="Capítulo 03" color="white" font-size="50"/>
+  <agent 
+    id="titulo" 
+    x="500" 
+    y="320" 
+    text="Capítulo 03" 
+    color="white" 
+    font-size="50"
+  />
 
   <agent 
-  id= "botão"
-  text= "continuar"
-  x="570"
-  y="559"
-  font-size="20"
-  color="black" 
-  on_click="set(texto, $texto+1)"
-  />
+    id= "botão"
+    text= "continuar"
+    x="570"
+    y="559"
+    font-size="20"
+    color="black" 
+    on_click="set(texto, $texto+1)"
+    />
 
 <fab-if when="$texto = 1">
   <agent
@@ -75,7 +82,7 @@
     font-size="20"
     color="white"
     on_click="goToPage('quinta1')"
-  />
+    />
 </fab-if>
 
 <fab-if when="$texto = 6">
