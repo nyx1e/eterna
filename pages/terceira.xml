@@ -88,9 +88,44 @@ Fazia séculos que ninguém a via assim."
     font-size="25"
     color="white"
   />    
+</fab-if> 
+  
+<fab-if when="$texto = 8">
+  <agent
+    id="frase8"
+    text="— Vá para casa — ela disse, fria."
+    x="center"
+    y="500"
+    font-size="25"
+    color="white"
+  />    
 </fab-if>
 
-  <fab-if when="$texto = 8">
+<fab-if when="$texto = 9">
+  <agent
+    id="frase9"
+    text="— Não posso. Me perdi — respondeu ele, sincero."
+    x="center"
+    y="500"
+    font-size="25"
+    color="white"
+  />    
+</fab-if>
+  
+<fab-if when="$texto = 10">
+  <agent
+    id="frase10"
+    text="Contra sua vontade, ela suspirou e o guiou até a saída do vilarejo.
+O menino falava sem parar, contando histórias.
+E, sem perceber, ela o ouvia com atenção."
+    x="center"
+    y="500"
+    font-size="25"
+    color="white"
+  />    
+</fab-if>
+
+  <fab-if when="$texto = 11">
   <agent
     id="next_page_text"
     text="Proxima Pagina"
