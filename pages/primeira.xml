@@ -53,11 +53,12 @@
 
 <fab-if when="$texto = 4">
   <agent
-    id="next_page_text"
-    text="..."
-    animation="glitch"
-    y="475"
-    x="center"
+    id= "seguinte"
+    text= "continuar"
+    x="570"
+    y="559"
+    font-size="20"
+    color="black"
     on_click="goToPage('segunda')"
   />
 </fab-if>  
