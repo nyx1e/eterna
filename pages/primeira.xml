@@ -11,10 +11,10 @@
 <agent 
   id= "botão"
   text= "continuar"
-  x="672"
-  y="450"
+  x="570"
+  y="559"
   font-size="20"
-  color="white" 
+  color="black" 
   on_click="set(texto, $texto+1)"
   />
 
