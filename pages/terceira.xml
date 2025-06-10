@@ -1,15 +1,12 @@
-<page id="terceira" bg_image="3eb000b5_742c_48c9_8198_820a2e336580.jpg">
-  <agent id="titulo" x="center" y="300" text="Capítulo 02" color="white" font-size="50"  />
-
-<agent 
-  id= "dialogo"
-  text= "continuar"
-  x="578"
-  y="558"
-  font-size="20"
-  color="white"
-  on_click="set(texto, $texto+1)"
-  />
+<page id="terceira" bg_image="f524c6f6_ab89_468d_a13e_be45b4bd6ded.jpg">
+   <agent 
+    id="titulo" 
+    x="500" 
+    y="320" 
+    text="Capítulo 01" 
+    color="white" 
+    font-size="50"
+    />
 
 <fab-if when="$texto = 1">
   <agent
