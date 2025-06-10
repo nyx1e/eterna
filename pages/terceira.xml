@@ -112,12 +112,13 @@ E, sem perceber, ela o ouvia com atenção."
 </fab-if>
 
   <fab-if when="$texto = 10">
-  <agent
-    id="next_page_text"
-    text="..."
-    animation="glitch"
-    y="480"
-    x="640"
+   <agent
+    id= "seguinte"
+    text= "continuar"
+    x="570"
+    y="559"
+    font-size="20"
+    color="black"
     on_click="goToPage('quarta')"
   />
 </fab-if>
