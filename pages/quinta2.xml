@@ -102,5 +102,15 @@ Nunca mais falou, nunca mais sorriu."
   />    
 </fab-if>
 
-
+ <fab-if when="$texto = 9">
+   <agent
+    id= "seguinte"
+    text= "continuar"
+    x="570"
+    y="559"
+    font-size="20"
+    color="black"
+    on_click="goToPage('ending')"
+  />
+</fab-if>
 </page>
