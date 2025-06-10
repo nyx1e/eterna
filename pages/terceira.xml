@@ -1,20 +1,30 @@
-<page id="terceira" bg_image="f524c6f6_ab89_468d_a13e_be45b4bd6ded.jpg">
+<page id="terceira" bg_image="3eb000b5_742c_48c9_8198_820a2e336580.jpg">
    <agent 
     id="titulo" 
     x="500" 
     y="320" 
-    text="Capítulo 01" 
+    text="Capítulo 02" 
     color="white" 
     font-size="50"
     />
 
+  <agent 
+  id= "botão"
+  text= "continuar"
+  x="570"
+  y="559"
+  font-size="20"
+  color="black" 
+  on_click="set(texto, $texto+1)"
+  />
+  
 <fab-if when="$texto = 1">
   <agent
     id="frase1"
     text="Um dia quando vagava por um vilarejo evitando a tudo e todos, uma criança por volta dos 5 anos esbarra nela e cai no chão."
     x="center"
     y="465"
-    font-size="20"
+    font-size="19"
     color="white" 
     />
 </fab-if>
@@ -22,44 +32,44 @@
 <fab-if when="$texto = 2">
   <agent
     id="frase2"
-    text="Para criança, aquele momento havia sido marcado para sempre em sua memória. Para bruxinha, o encontro a lembrou da infância quando ela ainda era pura mudando seu semblante uma vez calmo para um decaído e obscurecido."
+    text="Para criança, aquele momento havia sido marcado para sempre em sua memória."
     x="center"
-    y="460"
+    y="475"
     font-size="20"    
     color="white" 
   />    
 </fab-if>
-
+  
 <fab-if when="$texto = 3">
   <agent
     id="frase3"
-    text="O garoto curioso e encantado pela bruxa a seguiu de uma forma nada discreta. A bruxa experiente percebeu sua aproximação."
+    text="Para bruxinha, o encontro a lembrou da infância quando ela ainda era pura mudando seu semblante uma vez calmo para um decaído e obscurecido."
     x="center"
     y="460"
-    font-size="25"
+    font-size="17.5"    
     color="white" 
   />    
 </fab-if>
-
+  
 <fab-if when="$texto = 4">
   <agent
     id="frase4"
-    text="Ela se virou, esperando assustá-lo com o olhar sombrio.
-Mas o menino sorriu, como se visse algo bonito ali."
+    text="O garoto curioso e encantado pela bruxa a seguiu de uma forma nada discreta. A bruxa experiente percebeu sua aproximação."
     x="center"
-    y="475"
-    font-size="25"
-    color="white"
+    y="465"
+    font-size="18"
+    color="white" 
   />    
 </fab-if>
 
 <fab-if when="$texto = 5">
   <agent
     id="frase5"
-    text="— Você tem olhos de estrela."
+    text="Ela se virou, esperando assustá-lo com o olhar sombrio.
+Mas o menino sorriu, como se visse algo bonito ali."
     x="center"
-    y="475"
-    font-size="25"
+    y="465"
+    font-size="20"
     color="white"
   />    
 </fab-if>
@@ -67,6 +77,17 @@ Mas o menino sorriu, como se visse algo bonito ali."
 <fab-if when="$texto = 6">
   <agent
     id="frase6"
+    text="— Você tem olhos de estrela."
+    x="center"
+    y="485"
+    font-size="25"
+    color="white"
+  />    
+</fab-if>
+
+<fab-if when="$texto = 7">
+  <agent
+    id="frase7"
     text="A bruxa congelou.
 Fazia séculos que ninguém a via assim."
     x="center"
@@ -76,20 +97,20 @@ Fazia séculos que ninguém a via assim."
   />    
 </fab-if> 
   
-<fab-if when="$texto = 7">
+<fab-if when="$texto = 8">
   <agent
-    id="frase7"
+    id="frase8"
     text="— Vá para casa — ela disse, fria."
     x="center"
-    y="475"
+    y="480"
     font-size="25"
     color="white"
   />    
 </fab-if>
 
-<fab-if when="$texto = 8">
+<fab-if when="$texto = 9">
   <agent
-    id="frase8"
+    id="frase9"
     text="— Não posso. Me perdi — respondeu ele, sincero."
     x="center"
     y="475"
@@ -98,20 +119,20 @@ Fazia séculos que ninguém a via assim."
   />    
 </fab-if>
   
-<fab-if when="$texto = 9">
+<fab-if when="$texto = 10">
   <agent
-    id="frase9"
+    id="frase10"
     text="Contra sua vontade, ela suspirou e o guiou até a saída do vilarejo.
 O menino falava sem parar, contando histórias.
 E, sem perceber, ela o ouvia com atenção."
     x="center"
     y="465"
-    font-size="20"
+    font-size="17"
     color="white"
   />    
 </fab-if>
 
-  <fab-if when="$texto = 10">
+  <fab-if when="$texto = 11">
    <agent
     id= "seguinte"
     text= "continuar"
