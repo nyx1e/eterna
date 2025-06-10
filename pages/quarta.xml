@@ -18,7 +18,7 @@
     on_click="set(texto, $texto+1)"
     />
 
-<fab-if when="$texto = 1">
+<fab-if when="$texto = 16">
   <agent
     id="frase1"
     text="Nos dias seguintes, ele voltava ao mesmo lugar. Às vezes com pão, outras com flores mal colhidas. Ela dizia que não queria companhia, mas nunca o impedia de ficar."
@@ -29,7 +29,7 @@
     />
 </fab-if>
 
-<fab-if when="$texto = 2">
+<fab-if when="$texto = 17">
    <agent
     id="frase2"
     text="Ele a fazia rir — uma risada rouca e esquecida. Uma rachadura discreta surgiu na muralha ao redor de seu coração."
@@ -40,7 +40,7 @@
     />
 </fab-if>
 
-<fab-if when="$texto = 3">
+<fab-if when="$texto = 18">
   <agent
     id="frase3"
     text="O tempo passou devagar. O menino crescia, e com ele crescia o laço entre os dois. Ela, que havia esquecido como era cuidar de alguém, se pegava esperando por ele."
@@ -51,7 +51,7 @@
   />    
 </fab-if>
 
-<fab-if when="$texto = 4">
+<fab-if when="$texto = 19">
   <agent
     id="frase4"
     text="Ela sentia medo. De novo, estava amando algo que o tempo poderia tirar."
@@ -62,7 +62,7 @@
   />    
 </fab-if>
   
-<fab-if when="$texto = 5">
+<fab-if when="$texto = 20">
   <agent
     id="frase5"
     text="Certa noite, um grupo de aldeões veio à floresta. Diziam que o menino estava amaldiçoado pela bruxa e queriam matá-los para purificar o vilarejo da maldição da bruxa."
@@ -73,7 +73,7 @@
   />    
 </fab-if>
 
-<fab-if when="$texto = 6">
+<fab-if when="$texto = 21">
   <agent
     id="caminho1"
     text="Pegar o menino e fugir"
@@ -85,7 +85,7 @@
   />    
 </fab-if>
   
-<fab-if when="$texto = 6">
+<fab-if when="$texto = 22">
   <agent
     id="caminho2"
     text="Tentar convencê-los de que não o enfeitiçou"
