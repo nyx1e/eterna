@@ -93,7 +93,7 @@
     y="450"
     font-size="20"
     color="white"
-     on_click="goToPage('quinta2')"
+    on_click="goToPage('quinta2')"
   />    
 </fab-if>
 </page>
