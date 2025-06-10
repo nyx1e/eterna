@@ -1,3 +1,4 @@
 <page id="segunda" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página segunda" color="white" font-size="24" />
+  <agent id="titulo" x="center" y="center" text="Um Milênio Depois" color="white" font-size="40" />
+  
 </page>
