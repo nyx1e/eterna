@@ -1,3 +1,106 @@
 <page id="quinta2" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página quinta2" color="white" font-size="24" />
+  <agent id="titulo" x="500" y="320" text="Capítulo 04" color="white" font-size="50" />
+
+   <agent 
+  id= "botão"
+  text= "continuar"
+  x="570"
+  y="559"
+  font-size="20"
+  color="black" 
+  on_click="set(texto, $texto+1)"
+  />
+  
+<fab-if when="$texto = 1">
+  <agent
+    id="frase1"
+    text="Ao tentar convencê-los, arrancaram-no dela com gritos e violência. Ela caiu de joelhos, sentindo o vazio milenar voltar."
+    x="center"
+    y="465"
+    font-size="19"
+    color="white" 
+    />
+</fab-if>
+
+<fab-if when="$texto = 2">
+  <agent
+    id="frase2"
+    text="Na escuridão, ela tentou trazê-lo de volta. Feitiços antigos, promessas ao céu e ao inferno. Mas o tempo foi implacável mais uma vez. O menino, frágil diante do ódio dos homens, não resistiu."
+    x="center"
+    y="475"
+    font-size="20"    
+    color="white" 
+  />    
+</fab-if>
+  
+<fab-if when="$texto = 3">
+  <agent
+    id="frase3"
+    text="Ele morreu esperando pela ajuda dela."
+    x="center"
+    y="460"
+    font-size="17.5"    
+    color="white" 
+  />    
+</fab-if>
+  
+<fab-if when="$texto = 4">
+  <agent
+    id="frase4"
+    text="A floresta inteira chorou com sua dor.
+Seu grito virou vento, sua raiva virou tempestade."
+    x="center"
+    y="465"
+    font-size="18"
+    color="white" 
+  />    
+</fab-if>
+
+<fab-if when="$texto = 5">
+  <agent
+    id="frase5"
+    text="Enfurecida, ela avançou sobre o vilarejo sem piedade. Prendendo os moradores num sono eterno no qual viveriam seus piores pesadelos até que seus corpos apodrececem."
+    x="center"
+    y="465"
+    font-size="20"
+    color="white"
+  />    
+</fab-if>
+
+<fab-if when="$texto = 6">
+  <agent
+    id="frase6"
+    text="Para ela, a tortura eterna era um preço pequeno a se pagar pelas atrocidades que fizeram com o menino antes de sua morte."
+    x="center"
+    y="485"
+    font-size="25"
+    color="white"
+  />    
+</fab-if>
+
+<fab-if when="$texto = 7">
+  <agent
+    id="frase7"
+    text="Após destruir o vilarejo sem piedade, ela enterrou o menino sob a árvore mais antiga.
+Ali ficou, imóvel, por cem anos.
+Nunca mais falou, nunca mais sorriu."
+    x="center"
+    y="475"
+    font-size="25"
+    color="white"
+  />    
+</fab-if> 
+  
+<fab-if when="$texto = 8">
+  <agent
+    id="frase8"
+    text="Pois nada mais restava para ser tirado dela."
+    x="center"
+    y="480"
+    font-size="25"
+    color="white"
+  />    
+</fab-if>
+
+
 </page>
