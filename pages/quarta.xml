@@ -74,13 +74,22 @@
 </fab-if>
 
 <fab-if when="$texto = 6">
-   <agent
-    id= "seguinte1"
-    text= "> Pegar o menino e fugir"
+  <agent
+    id="caminho1"
+    text="Pegar o menino e fugir"
     x="center"
     y="525"
     font-size="20"
-    color="white"
-    on_click="goToPage('quinta1')"
-    />
+    color="white" 
+  />    
+</fab-if>
+  <fab-if when="$texto = 6">
+  <agent
+    id="caminho2"
+    text="Tentar convencê-los de que não o enfeitiçou"
+    x="center"
+    y="450"
+    font-size="20"
+    color="white" 
+  />    
 </fab-if>
