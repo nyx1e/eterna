@@ -15,10 +15,10 @@
   y="559"
   font-size="20"
   color="black" 
-  on_click="set(texto, $texto+1)"
+  on_click="set(texto1, $texto1+1)"
   />
 
-<fab-if when="$texto = 1">
+<fab-if when="$texto1 = 1">
   <agent
     id="frase1"
     text="Eis uma bruxa de bom de coração e curiosa."
@@ -29,7 +29,7 @@
     />
 </fab-if>
 
-<fab-if when="$texto = 2">
+<fab-if when="$texto1 = 2">
   <agent
     id="frase2"
     text="Entretanto o tempo tornou-se seu maior inimigo, pois tirou dela todos a quem amava e a amaldiçoou com a eternidade."
@@ -40,7 +40,7 @@
     />
 </fab-if>
 
-<fab-if when="$texto = 3">
+<fab-if when="$texto1 = 3">
   <agent
     id="frase3"
     text="Com o tempo a bruxa, uma vez amável, entrou em contato com um mundo cruel e sem misericórdia, o qual endureceu seu coração e a transformou em um monstro."
@@ -51,7 +51,7 @@
     />
 </fab-if>
 
-<fab-if when="$texto = 4">
+<fab-if when="$texto1 = 4">
   <agent
     id= "seguinte"
     text= "continuar"
