@@ -1,4 +1,4 @@
-<page id="quarta" bg_image="f5d8dea0_2ce8_481b_b5fc_224200a11554.jpg">
+<page id="quarta" bg_image="f5d8dea0_2ce8_481b_b5fc_224200a11554.jpg" bg_music="crescendo_orquestra.mp3">
   <agent 
     id="titulo" 
     x="500" 
