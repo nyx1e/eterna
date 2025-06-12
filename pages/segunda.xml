@@ -1,4 +1,4 @@
-<page id="segunda" bg_color="black" bg_music="musica_perfeita.mp3">
+<page id="segunda" bg_color="black" >
   <agent id="titulo" x="center" y="center" text="Um Milênio Depois" color="white" font-size="40" animation="typewriter" />
 
    <agent
