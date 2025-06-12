@@ -8,6 +8,7 @@
     font-size="50"
     />
 
+<fab-if when="$texto2 < 11"> 
   <agent 
   id= "botão"
   text= "continuar"
@@ -17,6 +18,7 @@
   color="black" 
   on_click="set(texto2, $texto2+1)"
   />
+</fab-if>
   
 <fab-if when="$texto2 = 1">
   <agent
