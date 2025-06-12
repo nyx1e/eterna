@@ -1,4 +1,4 @@
-<page id="quinta1" bg_image="e0d6a7ef_17ff_4905_978f_42188bbadd62.jpg">
+<page id="quinta1" bg_image="e0d6a7ef_17ff_4905_978f_42188bbadd62.jpg" bg_music="first_finale.mp3">
   <agent id="titulo" x="500" y="320" text="Capítulo 04" color="white" font-size="50" />
 
    <agent 
