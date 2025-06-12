@@ -1,4 +1,4 @@
-<page id="ending" bg_color="black" bg_music="osts-vilo.mp3">
+<page id="ending" bg_color="black" bg_music="intro.mp3">
   <agent
     id="teste"
     text="FIM"
@@ -6,7 +6,6 @@
     x="center"
     y="center"
     font-size="70"
-    animation="typewriter"
   />
 
   <agent
