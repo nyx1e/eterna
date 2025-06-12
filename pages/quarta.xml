@@ -7,7 +7,7 @@
     color="white" 
     font-size="50"
   />
-
+<fab-if when="$texto3 < 6">
   <agent 
     id= "botão"
     text= "continuar"
@@ -17,6 +17,7 @@
     color="black" 
     on_click="set(texto3, $texto3+1)"
     />
+  </fab-if>
 
 <fab-if when="$texto3 = 1">
   <agent
@@ -103,15 +104,4 @@
     on_click="goToPage('quinta2')"
   />    
 </fab-if>
-<fab-if when="$texto3<6">
-   <agent 
-    id= "botão2"
-    text= "continuar"
-    x="570"
-    y="559"
-    font-size="20"
-    color="black" 
-    on_click="set(texto3, $texto3+1)"
-    />
-  </fab-if>
 </page>
