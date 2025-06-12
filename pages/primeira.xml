@@ -1,4 +1,4 @@
-<page id="primeira" bg_image="b1d47331_609f_44cc_8fe3_b7bc497d63bd.jpg" >
+<page id="primeira" bg_image="b1d47331_609f_44cc_8fe3_b7bc497d63bd.jpg" bg_music="first_cello.mp3">
   <agent 
     id="titulo" 
     x="500" 
