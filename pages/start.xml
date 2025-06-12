@@ -1,4 +1,4 @@
-<page id="start" bg_image="e8a1261e_f934_45fc_87b8_b65cf0df0650.jpg">
+<page id="start" bg_image="e8a1261e_f934_45fc_87b8_b65cf0df0650.jpg" bg_music="musica_perfeita.mp3">
   <agent
     id="teste"
     text="Eterna"
