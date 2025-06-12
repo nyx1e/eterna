@@ -1,4 +1,4 @@
-<page id="terceira" bg_image="3eb000b5_742c_48c9_8198_820a2e336580.jpg">
+<page id="terceira" bg_image="3eb000b5_742c_48c9_8198_820a2e336580.jpg" bg_music="musica_perfeita.mp3">
    <agent 
     id="titulo" 
     x="500" 
