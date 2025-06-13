@@ -1,5 +1,5 @@
 <page id="segunda" bg_color="black" bg_music="piano_solo.mp3">
-  <agent id="titulo" x="center" y="center" text="Um Milênio Depois" color="white" font-size="40" animation="breathing" />
+  <agent id="titulo" x="center" y="center" text="Um Milênio Depois" color="white" font-size="40" animation="fade-in-up" />
 
    <agent
     id="next_page_text"
